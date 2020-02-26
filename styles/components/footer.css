@@ -1,0 +1,19 @@
+.footer {
+  background-color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer {
+  padding-top: 67px;
+  padding-bottom: 528px;
+}
+
+.footer-title {
+  font-size: 15px;
+}
+
+.footer-description {
+  color: #8297a7;
+}

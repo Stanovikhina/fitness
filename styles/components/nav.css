@@ -1,0 +1,41 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  font-size: 13px;
+}
+
+.nav a {
+  color: #ffffff;
+}
+
+.nav a:hover {
+  color: #a2ca28;
+  text-decoration: none;
+}
+
+.nav a:active {
+  color: #dc3502;
+}
+
+.nav .nav-item {
+  padding-top: 10px;
+  padding-left: 55px;
+}
+
+.nav .nav-item:hover {
+}
+
+.nav .is-active {
+}
+
+@media (max-width: 960px) {
+  .nav {
+    display: none;
+  }
+}

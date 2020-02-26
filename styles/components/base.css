@@ -1,0 +1,92 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 2 !important;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+body {
+  margin: 0px;
+}
+
+.container {
+  max-width: 1070px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+figure {
+  margin: 0;
+  position: relative;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p,
+ul,
+ol {
+  margin: 0 0 15px 0;
+}
+
+* + p,
+* + ul,
+* + ol {
+  margin-top: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+  margin-top: 0.67em;
+}
+
+a.logo {
+  font-size: 24px;
+  color: white;
+}
+
+.main {
+  position: relative;
+}
